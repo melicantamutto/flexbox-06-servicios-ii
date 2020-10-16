@@ -5,13 +5,13 @@
     padding: 0;
     color: #6b7280;
     line-height: 1.4;
-    font-size: 14px;
+    font-size: 0.87rem;
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 250px 120px;
+    padding: 15.62rem 7.5rem;
 }
 main{
     display: flex;
@@ -19,26 +19,26 @@ main{
 }
 header{
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 0.93rem;
 }
 h2,h1{
     color: #161e2e;
 }
 h1{
-    font-size: 42px;
+    font-size: 2.62rem;
     margin-bottom: 10px;
 }
 h2{
-    font-size: 18px;
-    margin:10px 0 15px 10px;
+    font-size: 1.12rem;
+    margin:0.63rem 0 0.93rem 0.63rem;
 }
 h2+p{
-    margin-left:10px;
-    margin-bottom: 10px;
+    margin-left:0.63rem;
+    margin-bottom: 0.63rem;
 }
 img{
     flex-shrink: 0;
-    margin-top: 10px;
+    margin-top: 0.63rem;
 }
 p{
     font-weight: 300;
@@ -47,8 +47,8 @@ p{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 950px;
-    margin-top: 30px;
+    max-width: 59.37rem;
+    margin-top: 1.87rem;
 }
 article{
     flex: 1 1 40%;
@@ -56,7 +56,7 @@ article{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin: 5px;
+    margin: 0.31rem;
 }
 article>section{
     display: flex;
@@ -65,7 +65,7 @@ article>section{
 
 @media (min-width: 320px) and (max-width: 550px) and (orientation:portrait){
     body{
-        padding: 100px 0px;
+        padding: 6.25rem 0px;
     }
     .container{
         flex-direction: column;
@@ -79,6 +79,6 @@ article>section{
         width: 100%;
     }
     img{
-        margin-left: 3px;
+        margin-left: 0.1875rem;
     }
 }
